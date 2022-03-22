@@ -14,7 +14,26 @@ export default {
   },
   data(){
     return{
-
+      Hlinks:[
+        {
+          'info': 'Home'
+        },
+        {
+          'info': 'About'
+        },
+        {
+          'info': 'Services'
+        },
+        {
+          'info': 'Blog'
+        },
+        {
+          'info': 'Contact'
+        },
+        {
+          'info': 'Portfolio'
+        },
+      ]
     }
   }
 }
