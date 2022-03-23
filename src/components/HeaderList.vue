@@ -20,6 +20,6 @@ export default {
 <style scoped>
     .container-info{
         color: white;
-        font-size: 14px;
+        font-size: 11px;
     }
 </style>

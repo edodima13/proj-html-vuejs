@@ -12,13 +12,13 @@
                 <p class="sub-description">
                     When, while the lovely valley teems with vapour around meand the meridian sun strikes the upper surface.
                 </p>
-                <div>
-                    <button></button>
-                    <button></button>
+                <div class="try-btn">
+                    <button class="button-l">try it now</button>
+                    <button class="button-l">Explore more</button>
                 </div>
             </div>
-            <div>
-
+            <div class="thumb">
+                <img src="../assets/img/header.png" alt="">
             </div>
         </div>
     </div>
@@ -41,13 +41,27 @@ export default {
         justify-content: space-between;
     }
     .fw-l,.fw-m{
-        font-size: 45px;
+        font-size: 33px;
         text-transform: capitalize;
     }
+    .fw-l{
+        padding-bottom: 20px;
+    }
     .description{
-        max-width: 50%;
+        max-width: 35%;
     }
     .sub-description{
-        padding-right: 150px;
+        padding-right: 70px;
+        padding-bottom: 25px;
+    }
+    .try-btn{
+        display: flex;
+        gap: 15px;
+    }
+    .thumb{
+    }
+    img{
+        height: 465px;
+        padding-bottom: 50px;
     }
 </style>

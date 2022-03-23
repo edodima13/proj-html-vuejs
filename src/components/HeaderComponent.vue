@@ -9,16 +9,19 @@
             </div>
             <div class="container">
                 <!--creare la lista dei link dinamicamente in un altro componente-->
-                <HlistVue 
+                <div class="container-s">
+                  <HlistVue 
                     :linkList="hLinks" 
                     v-for="(link, index) in hLinks" 
                     :key="index"
                     :info="link.info"/>
-                    <!--inserire il button per il log in-->
+                </div>
+                <div>
+                   <!--inserire il button per il log in-->
                     <div class="Sign-btn">
                         <button>Sign in</button>
                     </div>
-                    
+                </div>
             </div>
         </div>
     
@@ -80,9 +83,10 @@ export default{
     .container{
         display: flex;
         align-items: center;
-        gap: 15px;
+        gap: 30px;
     }
-    header .container .Sign-btn{
-        padding: 0 20px;
+    .container-s{
+      display: flex;
+      gap: 15px;
     }
 </style>
