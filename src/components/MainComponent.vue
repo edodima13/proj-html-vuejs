@@ -1,14 +1,18 @@
 <template>
     <main>
         <TryVue/>
+        <ServiceVue/>
     </main>
 </template>
 <script>
-import TryVue from './TryVue.vue'
+import TryVue from './Try.vue'
+import ServiceVue from './Services.vue'
 
 export default{
-  components: { TryVue },
+  components: { TryVue, ServiceVue },
     name: 'MainVue'
 }
 </script>
-style
+<style scoped>
+
+</style>

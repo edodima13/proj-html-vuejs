@@ -34,6 +34,7 @@ export default {
     .container-fluid{
         background-color: #09154C;
         margin: 0 auto;
+        padding-bottom: 90px;
     }
     .container-l{
         display: flex;
@@ -53,15 +54,13 @@ export default {
     .sub-description{
         padding-right: 70px;
         padding-bottom: 25px;
+        color: #0A87BC;
     }
     .try-btn{
         display: flex;
         gap: 15px;
     }
-    .thumb{
-    }
     img{
         height: 465px;
-        padding-bottom: 50px;
     }
 </style>
