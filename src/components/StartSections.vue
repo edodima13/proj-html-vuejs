@@ -17,6 +17,21 @@ export default {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-bottom: 80px;
+}
+.services p:first-child{
+    color: #F9636B;
+}
+.services p:last-child{
+    color: #3D3D3D;
+}
+h3{
+    font-size: 30px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+span{
+    font-weight: 700;
 }
 p{
     color:  red;

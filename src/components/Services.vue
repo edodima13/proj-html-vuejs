@@ -23,6 +23,9 @@
                 <p>When, while the lovely valley teems with vapour around meand the meridian sun strikes the upper</p>
             </div>
         </div>
+        <div class="container">
+            <button class="button-l">wiew all services</button>
+        </div>
         
     </div>
 </template>
@@ -50,12 +53,16 @@ img{
     width: 100px;
 }
 p{
-    color: #606060;
+    color: #444444;
     text-align: center;
+}
+.container{
+    text-align: center;
+    padding-bottom: 40px;
 }
 .container-m{
     display: flex;
-    justify-content: space-around;
-    flex-grow: 1;
+    justify-content: space-between;
+    padding-bottom: 80px;
 }
 </style>
