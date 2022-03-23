@@ -5,8 +5,8 @@
                 <img src="../assets/img/work3.jpg" alt="">
             </div>
             <div class="card-info">
-                <p>Basket of Flower on table</p>
-                <p>Branding strategy</p>
+                <p>Mock-up</p>
+                <p>Digital experience</p>
             </div>
         </div>
         <div class="card-wrapper">
@@ -23,7 +23,16 @@
                 <img src="../assets/img/work2.jpg" alt="">
             </div>
             <div class="card-info">
-                <p>Basket of Flower on table</p>
+                <p>Purinky products</p>
+                <p>Digital experience</p>
+            </div>
+        </div>
+        <div class="card-wrapper">
+            <div class="card-image">
+                <img src="../assets/img/work3.jpg" alt="">
+            </div>
+            <div class="card-info">
+                <p>Satisy poster</p>
                 <p>Branding strategy</p>
             </div>
         </div>
@@ -32,17 +41,8 @@
                 <img src="../assets/img/work3.jpg" alt="">
             </div>
             <div class="card-info">
-                <p>Basket of Flower on table</p>
-                <p>Branding strategy</p>
-            </div>
-        </div>
-        <div class="card-wrapper">
-            <div class="card-image">
-                <img src="../assets/img/work3.jpg" alt="">
-            </div>
-            <div class="card-info">
-                <p>Basket of Flower on table</p>
-                <p>Branding strategy</p>
+                <p>Mock-up</p>
+                <p>Digital experience</p>
             </div>
         </div>
     </div>
