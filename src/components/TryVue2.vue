@@ -37,7 +37,6 @@ export default {
         background-color: #09154C;
         margin: 0 auto;
         padding: 120px 0;
-        margin-bottom: 40px;
     }   
     .container-l{
         display: flex;

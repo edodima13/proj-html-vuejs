@@ -33,8 +33,5 @@ h3{
 span{
     font-weight: 700;
 }
-p{
-    color:  red;
-}
 
 </style>
