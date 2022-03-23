@@ -1,18 +1,25 @@
 <template>
-    <div class="container">
-        <HbodyVue/>
+    <div class="container-info">
+        {{info}}
     </div>
 </template>
 <script>
-import HbodyVue from ''
 
 export default {
     name: 'HlistVue',
+    props: {
+        info:{
+            type: Array,
+            required: true
+        }
+    },
     components:{
-        HbodyVue
     }
 }
 </script>
 <style scoped>
-
+    .container-info{
+        color: white;
+        font-size: 14px;
+    }
 </style>

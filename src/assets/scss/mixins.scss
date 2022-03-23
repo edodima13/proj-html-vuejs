@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-fluid{
+    width: 100%;
+}
+
+.container-l{
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+img{
+    display: block;
+    object-fit: cover;
+    object-position: center;
+}
+
+button{
+    border-radius: 999px;
+    padding: 8px 15px;
+    font-size: 15px;
+    color: white;
+    border: none;
+    background-color: red;
+}
+
+p{
+    font-size: 13px;
+    color: white;
+}
+
+.fw-l{
+    font-weight: 800;
+}
+
+.fw-m{
+    font-weight: 500;
+}
