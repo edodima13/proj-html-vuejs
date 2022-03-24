@@ -61,6 +61,12 @@ export default {
         display: flex;
         gap: 15px;
     }
+    .try-btn button:first-child{
+        background-color: #F9636B;
+    }
+    .try-btn button:last-child{
+        background-color: #03A7D3E6;
+    }
     img{
         height: 465px;
     }

@@ -41,11 +41,13 @@
           </div>
         </div>
       </div>
+      <SocialVue/>
     </footer>
 </template>
 <script>
 import FlistVue from './FooterList.vue'
 import FlistsVue from './FooterList2.vue'
+import SocialVue from './SocialFooter.vue'
 
 export default{
   name: 'FooterVue',
@@ -53,7 +55,7 @@ export default{
       linkList: Array,
       linksList: Array
   },
-  components:{ FlistVue, FlistsVue },
+  components:{ FlistVue, FlistsVue, SocialVue },
   data(){
   return{
     fLinks:[
@@ -95,7 +97,7 @@ export default{
   .container-l{
     display: flex;
     justify-content: space-between;
-    padding: 100px 0;
+    padding: 100px 0 50px;
   }
   .container-l > div{
     width: 20%;

@@ -90,4 +90,7 @@ export default{
       display: flex;
       gap: 15px;
     }
+    button{
+      background-color: #03A7D3E6;
+    }
 </style>
