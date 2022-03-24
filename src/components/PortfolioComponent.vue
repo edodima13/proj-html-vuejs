@@ -35,7 +35,7 @@ export default{
 </script>
 <style scoped>
 .portfolio{
-    background-color: #dbdbdb;
+    background-color: #FFFFFF80;
     padding-bottom: 10px;
 }
 .services{
@@ -53,7 +53,7 @@ span{
     font-weight: 700;
 }
 .div-dot{
-    background-color: white;
+    background-color: #00000025;
     border-radius: 999px;
     width: 5px;
     height: 5px;
