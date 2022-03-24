@@ -6,6 +6,8 @@
             <p>When, while the lovely valley teems with vapour around meand the meridian sun strikes the upper surface.</p>
         </div>
         <PricesCards/>
+        <PricesCards/>
+        <PricesCards/>
     </div>
     
 </template>
@@ -36,6 +38,7 @@ export default {
     justify-content: center;
     align-items: center;
     padding-bottom: 80px;
+    padding-top: 50px;
 }
 .services p:first-child{
     color: #B6246E;

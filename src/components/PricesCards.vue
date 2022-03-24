@@ -8,7 +8,11 @@
         </div>
         <div class="benefit">
             <ul>
-                <li><span>Creative</span>designed enable</li>
+                <li><span>Creative</span> designed enable</li>
+                <li><span>Vibrant</span> color usage</li>
+                <li><span>eye</span> catching design</li>
+                <li><span>extreme</span> typography</li>
+                <li><span>exceptional</span> design</li>
             </ul>
         </div>
     </div>
@@ -24,7 +28,7 @@ export default {
     .card-wrapper{
         width: 30%;
         border-radius: 15px;
-        background-color: red;
+        background-color: white;
     }
     .type-subscription{
         position: relative;
@@ -34,18 +38,22 @@ export default {
         justify-content: center;
         gap: 10px;
         color: black;
+        padding: 20px 0;
     }
     h3{
         font-size: 30px;
+        z-index: 999;
     }
     .price{
         font-size: 60px;
+        z-index: 1;
     }
     .price::before{
         display: block;
         content: '$';
         font-size: 11px;
         color: black;
+       
     }
     .price::after{
         display: block;
@@ -56,17 +64,29 @@ export default {
         font-size: 200px;
         opacity: 0.2;
         color: #AAAAAA;
+        z-index: -1;
     }
     .info{
         text-transform: uppercase;
         padding-bottom: 20px;
+        z-index: 99;
+        color: black;
+    }
+    .benefit{
+        padding-top: 20px;
+        padding-bottom: 40px;
     }
     .benefit ul{
         display: flex;
         flex-direction: column;
-        gap: 5px;
-        color: white;
+        gap: 10px;
+        color: rgba(0, 0, 0, 0.5);
         align-items: center;
         justify-content: center;
+        text-transform: capitalize;
+        font-size: 13px;
+    }
+    .benefit ul span{
+        color: black;
     }
 </style>
