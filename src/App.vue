@@ -1,22 +1,26 @@
 <template>
   <div id="app">
-    <!--HEADER CON LOGO E LINKS DELLA PAGE-->
+    <!--COMPONENTE HEADER-->
     <HeaderVue/>
-    <!--COMPONENTE PER INIZIARE UN PROGETTO-->
+    <!--COMPONENTE MAIN-->
     <MainVue/>
+    <!--COMPONENTE FOOTER-->
+    <FooterVue/>
   </div>
 </template>
 
 <script>
 import HeaderVue from './components/HeaderComponent.vue'
 import MainVue from './components/MainComponent.vue'
+import FooterVue from './components/FooterComponent.vue'
 
 
 export default {
   name: 'App',
   components: {
     HeaderVue,
-    MainVue
+    MainVue,
+    FooterVue
   },
 }
 </script>
