@@ -99,12 +99,23 @@ export default{
   }
   .container-l > div{
     width: 20%;
-    display: flex ;
-    flex-direction: column;
-    align-items: flex-start;
   }
   .logo-footer img{
-    padding-bottom: 50px;
+    padding-bottom: 30px;
     width: 100px;
+  }
+  .contact > div{
+    padding-bottom: 10px;
+  }
+  h4{
+    color: white;
+    padding-bottom: 20px;
+    padding-top: 10px;
+  }
+  footer p{
+    color: #AAAAAA;
+  }
+  p span{
+    color: white;
   }
 </style>

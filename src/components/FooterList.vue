@@ -18,4 +18,9 @@ export default {
 }
 </script>
 <style scoped>
+    div > div{
+        padding-bottom: 5px;
+        font-size: 11px;
+        color: #AAAAAA;
+    }
 </style>

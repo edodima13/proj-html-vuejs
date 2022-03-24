@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="links">
         {{info}}
     </div>
 </template>
@@ -19,7 +19,10 @@ export default {
 </script>
 <style scoped>
     div > div{
-        padding-left: 100px;
+        padding-left: 50px;
         text-align: center;
+        padding-bottom: 5px;
+        font-size: 11px;
+        color: #AAAAAA;
     }
 </style>
