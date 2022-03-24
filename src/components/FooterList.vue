@@ -1,5 +1,5 @@
 <template>
-    <div class="container-l">
+    <div>
         {{info}}
     </div>
 </template>
@@ -18,8 +18,4 @@ export default {
 }
 </script>
 <style scoped>
-    .container-info{
-        color: white;
-        font-size: 11px;
-    }
 </style>
